@@ -128,6 +128,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\NAudio.WinForms\NAudio.WinForms.csproj">
+      <Project>{a7d33e43-866b-4b08-a5ea-147409092b60}</Project>
+      <Name>NAudio.WinForms</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NAudio\NAudio.csproj">
       <Project>{DA4F02E3-0B5E-42CD-B8D9-5583FA51D66E}</Project>
       <Name>NAudio</Name>
